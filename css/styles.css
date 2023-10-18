@@ -93,6 +93,14 @@ body {
 }
 /*END OF GENERAL STYLING*/
 
+/* ABOUT STYLING */
+.about-icon {
+  padding: 24px 0;
+  text-align: center;
+  background-color: var(--cloud);
+}
+
+
 /*HEADER STYLING*/
 .header {
   justify-content: space-around;
@@ -178,6 +186,21 @@ body {
   font-weight: 500;
   line-height: 1.5; /* 120% */
   letter-spacing: 0.4px;
+}
+
+.team ul li {
+  text-align:center ;
+}
+
+.team-social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-social-icon{
+background-color: var(--iris);
+padding: 15px;
+border-radius: 50%;
 }
 
 /*FOOTER STYLING*/
