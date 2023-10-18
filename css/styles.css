@@ -74,7 +74,7 @@ body {
 }
 
 .container {
-  width: 1158px;
+  width: 1440px;
 }
 
 .d-flex {
@@ -180,16 +180,30 @@ body {
 /* END OF HERO SECTION STYLING */
 
 /* TEAM SECTION STYLING */
+.team {
+  background-color: var(--cloud);
+}
+
 .team-name {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.5; /* 120% */
   letter-spacing: 0.4px;
+  margin-top: 0;
 }
 
 .team ul li {
   text-align:center ;
+}
+
+.team img {
+  display: block;
+}
+
+.team-caption {
+  padding: 32px 0px;
+  background-color: white;
 }
 
 .team-social {
@@ -199,8 +213,29 @@ body {
 
 .team-social-icon{
 background-color: var(--iris);
-padding: 15px;
 border-radius: 50%;
+height: 40px;
+width: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+fill: white;
+}
+
+/* CUSTOMER STYLING */
+.customers {
+  text-align: center;
+}
+
+.customer-icon {
+  border: 1px solid #8E8F99;
+  fill: #8E8F99;
+  padding: 169x 32px;
+}
+
+.customer-icon:hover,:focus {
+  border-color: var(--iris);
+  fill: var(--iris);
 }
 
 /*FOOTER STYLING*/
@@ -218,4 +253,16 @@ border-radius: 50%;
   */
   letter-spacing: 0.32px;
 }
+
+.social-media {
+  background-color: var(--iris);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: white;
+}
+
 /*END OF FOOTER STYLING*/
