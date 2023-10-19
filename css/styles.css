@@ -144,6 +144,35 @@ body {
   color: var(--slate);
   letter-spacing: 0.32px;
 }
+
+.projects-button {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.projects-button button {
+  color:var(--iris);
+  background-color: transparent; 
+  border: 1px solid iris;
+  padding: 10px 20px; 
+  margin: 40px; 
+  cursor: pointer;
+  transition: color 0.3s, background-color 0.3s;
+  font-family: roboto;
+  border: 1px solid var(--CORNFLOWER, #E7E9FC); ;
+}
+
+.projects-button button:hover {
+  color: white;
+  background-color: var(--iris); 
+  border-radius: 4px;
+  border: 1px solid var(--CORNFLOWER, #E7E9FC);
+
+}
+
+
 /*END OF HEADER STYLING*/
 
 /* HERO SECTION STYLING */
@@ -238,6 +267,24 @@ fill: white;
   fill: var(--iris);
 }
 
+/* PORTFOLIO STYLING */
+.projects ul {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.projects li {
+  width:25%;
+}
+
+.projects li img {
+  width: 100%;
+}
+
+.projects li img {
+ 
+}
+
 /*FOOTER STYLING*/
 .footer-section {
   display: flex;
@@ -245,7 +292,7 @@ fill: white;
   justify-content: center;
   gap: 150px ;
   height:312px ;
-  margin-right: 500px;
+  margin-right: 650px;
  
 }
 
