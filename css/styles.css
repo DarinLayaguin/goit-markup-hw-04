@@ -239,6 +239,16 @@ fill: white;
 }
 
 /*FOOTER STYLING*/
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px ;
+  height:312px ;
+  margin-right: 500px;
+ 
+}
+
 .logo-studio-footer {
   color: var(--cloud);
 }
@@ -254,6 +264,22 @@ fill: white;
   letter-spacing: 0.32px;
 }
 
+.footer-studio {
+  display: inline-block;
+  justify-content: center;
+  
+}
+
+.footer-icon {
+  display: inline-block;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.footer-icon h2 {
+  color: var(--cloud);
+}
+
 .social-media {
   background-color: var(--iris);
   border-radius: 50%;
@@ -263,6 +289,8 @@ fill: white;
   align-items: center;
   justify-content: center;
   fill: white;
+  
+  
 }
 
 /*END OF FOOTER STYLING*/
